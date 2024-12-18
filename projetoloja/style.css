@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background: #9bbdcf;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    height: 80px;
+}
+
+.search-bar {
+    padding: 8px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.produtos, .produto {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100px;
+    height: 100px;
+}
+
+.btn, button {
+    background-color: #6a9fa5;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+ul { list-style: none; padding: 0; } ul li { background-color: #f8f8f8; margin: 5px 0; padding: 10px; border-radius: 5px; } h3 { margin-top: 20px; }
+
+.btn-remover {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-remover:hover {
+    background-color: #e63939;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #6a9fa5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #5a8a8f;
+}
